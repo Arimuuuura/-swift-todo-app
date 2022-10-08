@@ -12,6 +12,8 @@
 		1DF3F6A228F1815400E547B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DF3F6A128F1815400E547B4 /* Assets.xcassets */; };
 		1DF3F6A528F1815400E547B4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DF3F6A428F1815400E547B4 /* Preview Assets.xcassets */; };
 		1DF3F6AE28F187E500E547B4 /* ListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF3F6AD28F187E500E547B4 /* ListRow.swift */; };
+		1DF3F6B028F1931B00E547B4 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF3F6AF28F1931B00E547B4 /* UserData.swift */; };
+		1DF3F6B228F193CA00E547B4 /* UserTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF3F6B128F193CA00E547B4 /* UserTask.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		1DF3F6A128F1815400E547B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1DF3F6A428F1815400E547B4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1DF3F6AD28F187E500E547B4 /* ListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRow.swift; sourceTree = "<group>"; };
+		1DF3F6AF28F1931B00E547B4 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		1DF3F6B128F193CA00E547B4 /* UserTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTask.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +58,10 @@
 			isa = PBXGroup;
 			children = (
 				1DF3F69D28F1815300E547B4 /* swift_todo_appApp.swift */,
+				1DF3F6AF28F1931B00E547B4 /* UserData.swift */,
 				1DF3F6AD28F187E500E547B4 /* ListRow.swift */,
 				1DF3F69F28F1815300E547B4 /* ContentView.swift */,
+				1DF3F6B128F193CA00E547B4 /* UserTask.swift */,
 				1DF3F6A128F1815400E547B4 /* Assets.xcassets */,
 				1DF3F6A328F1815400E547B4 /* Preview Content */,
 			);
@@ -140,8 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DF3F6B228F193CA00E547B4 /* UserTask.swift in Sources */,
 				1DF3F6A028F1815300E547B4 /* ContentView.swift in Sources */,
 				1DF3F69E28F1815300E547B4 /* swift_todo_appApp.swift in Sources */,
+				1DF3F6B028F1931B00E547B4 /* UserData.swift in Sources */,
 				1DF3F6AE28F187E500E547B4 /* ListRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
