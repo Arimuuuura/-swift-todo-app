@@ -11,9 +11,9 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             List {
-                ListRow(task: "筋トレ")
-                ListRow(task: "読書")
-                ListRow(task: "散歩")
+                ListRow(task: "筋トレ", isCheck: true)
+                ListRow(task: "読書", isCheck: false)
+                ListRow(task: "散歩", isCheck: true)
                 Text("＋").font(.title)
             }
             .navigationBarTitle(Text("Tasks"))

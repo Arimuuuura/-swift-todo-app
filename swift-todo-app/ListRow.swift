@@ -9,9 +9,15 @@ import SwiftUI
 
 struct ListRow: View {
     let task: String
+    var isCheck: Bool
+    
     var body: some View {
         HStack {
-            Text("□")
+            if isCheck {
+                Text("☑︎")
+            } else {
+                Text("□")
+            }
             Text(task)
         }
     }
