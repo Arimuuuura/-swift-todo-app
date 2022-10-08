@@ -11,22 +11,13 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             List {
-                HStack {
-                    Text("□")
-                    Text("散歩")
-                }
-                Text("筋トレ")
-                Text("読書")
+                ListRow(task: "筋トレ")
+                ListRow(task: "読書")
+                ListRow(task: "散歩")
                 Text("＋").font(.title)
             }
             .navigationBarTitle(Text("Tasks"))
             .navigationBarItems(trailing: Text("Delete"))
         }
-    }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
     }
 }
